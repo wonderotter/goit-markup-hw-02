@@ -4,22 +4,21 @@
 }
 :root {
     --main-text-color: #434455;
-    --heads-color: #2E2F42;
+    --head-color: #2E2F42;
     --brand-color: #4D5AE5;
-    --light-background-color: #FFFFFF;
+    --light-background-color: #F4F4FD;
     --accent-color: #E7E9FC;
+    --background-color-white: #FFFFFF;
 }
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: var(--heads-color);
     background-color:var(--light-background-color);
-
+    color: var(--main-text-color);
 }
 .menu-link {
     font-weight: 600;
-    font-size: 16px;
-    color: var(--heads-color);
+    color: var(--head-color);
     background-color: var(--light-background-color);
 }
 .logo {
@@ -27,7 +26,7 @@
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: var(--heads-color);
+    color: var(--head-color);
 }
 .logo-span {
     color: var(--brand-color);
@@ -35,30 +34,28 @@
 .nav-link {
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--heads-color);
+    color: var(--head-color);
     }
 .nav-link:hover,
 .nav-link:focus {
     color: var(--brand-color)
 }
-.contact {
+.contact-link {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
-.contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: var(--brand-color);
 }
 .hero {
-    background-color: var(--heads-color);
+    background-color: var(--head-color);
 }
-  .hero-title {
-    font-weight: 500;
+.hero-title {
+    font-weight: 600;
     font-size: 56px;
     line-height: 1.7;
-    color: var(--accent-color);
+    color: var(--background-color-white);
     }
 
 .order-btn {
@@ -78,76 +75,51 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 600;
-    font-size: 16px;
     line-height: 1.18;
     color: var(--light-background-color);
-}
-.benefits {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--heads-color);
 }
 
 .benefits-title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    color: var(--heads-color);
-}
-.benefits-list {
-    font-size: 16px;
-    line-height: 1.18;
-    color: var(--main-text-color);
+    color: var(--head-color);
 }
 .benefits-description {
-    font-size: 16px;
-    line-height: 1.5;
-
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--main-text-color);
  }
  .title {
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    color: var(--heads-color);
- }
- .about {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--heads-color);
+    color: var(--head-color);
+ }
+ .our-team {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--head-color);
  }
  .team-name {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--heads-color);
+    color: var(--head-color);
  }
  .tean-position {
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--main-text-color);
  }
-.navigation {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--heads-color);
-}
 .navigation-head {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--heads-color);
+    color: var(--head-color);
 }
 .navigation-description{
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
  .nav-btn{
@@ -172,17 +144,23 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #FFFFFF;
-    background: #4D5AE5;
+    color:var(--background-color-white);
+    background: var(--brand-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
  }
 
- .the-end {
-    background-color: var(--heads-color);
- }
-  .the-end {
+.footer {
+    background-color: var(--head-color);
+}
+.logo-footer {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: var(--light-background-color);
+}
+.the-end {
+    font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--accent-color);
   }
