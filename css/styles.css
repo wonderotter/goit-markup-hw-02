@@ -154,6 +154,7 @@ body {
     background-color: var(--head-color);
 }
 .logo-footer {
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
