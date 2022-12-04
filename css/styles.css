@@ -18,6 +18,7 @@ body {
 }
 .menu-link {
     font-weight: 600;
+    line-height: 1.5;
     color: var(--head-color);
     background-color: var(--light-background-color);
 }
@@ -25,15 +26,17 @@ body {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
     color: var(--head-color);
 }
 .logo-span {
     color: var(--brand-color);
 }
 .nav-link {
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--head-color);
     }
 .nav-link:hover,
@@ -42,6 +45,7 @@ body {
 }
 .contact-link {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 .contact-link:hover,
@@ -54,7 +58,9 @@ body {
 .hero-title {
     font-weight: 600;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--background-color-white);
     }
 
@@ -75,7 +81,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 600;
-    line-height: 1.18;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
     color: var(--light-background-color);
 }
 
@@ -83,16 +90,19 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--head-color);
 }
 .benefits-description {
-    line-height: 1.8;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
  }
  .section-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     color: var(--head-color);
     text-transform: capitalize;
  }
@@ -100,20 +110,24 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--head-color);
  }
  .team-position {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
  }
 .project-title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--head-color);
 }
 .project-description{
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
  .nav-btn{
@@ -152,9 +166,11 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--light-background-color);
 }
 .footer-description {
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--accent-color);
   }
