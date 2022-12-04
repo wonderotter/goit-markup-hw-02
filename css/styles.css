@@ -86,21 +86,15 @@ body {
     color: var(--head-color);
 }
 .benefits-description {
-    font-weight: 400;
     line-height: 1.8;
     color: var(--main-text-color);
  }
- .title {
+ .section-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     color: var(--head-color);
- }
- .our-team {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.11;
-    color: var(--head-color);
+    text-transform: capitalize;
  }
  .team-name {
     font-weight: 600;
@@ -108,17 +102,17 @@ body {
     line-height: 1.2;
     color: var(--head-color);
  }
- .tean-position {
+ .team-position {
     line-height: 1.5;
     color: var(--main-text-color);
  }
-.navigation-head {
+.project-title {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     color: var(--head-color);
 }
-.navigation-description{
+.project-description{
     line-height: 1.5;
     color: var(--main-text-color);
 }
@@ -160,8 +154,7 @@ body {
     line-height: 1.17;
     color: var(--light-background-color);
 }
-.the-end {
-    font-weight: 400;
+.footer-description {
     line-height: 1.5;
     color: var(--accent-color);
   }
